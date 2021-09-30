@@ -1,0 +1,23 @@
+Package: rmapdata
+Title: Data for 'rmap' Package
+Version: 1.0.0
+Authors@R: c(person("Zarrar", "Khan", email = "zarrar.khan@pnnl.gov", role = c("aut", "cre"),
+		   comment = c(ORCID ="0000-0002-8147-8553")),
+		   person("Mengqi", "Zhao", role = c("aut"), comment = c(ORCID="0000-0001-5385-2758")),
+		   person("Chris", "Vernon", role = c("aut"), comment = c(ORCID="0000-0002-3406-6214")),
+		   person("Thomas", "Wild", role = c("aut"), comment = c(ORCID="0000-0002-6045-7729")))
+Description: Data files used for the rmap package.
+URL: https://github.com/JGCRI/rmapdata
+BugReports: https://github.com/JGCRI/rmapdata/issues
+Depends: R (>= 3.5)
+License: BSD_2_clause + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Suggests: 
+    rmarkdown,
+    testthat (>= 3.0.0),
+    knitr
+VignetteBuilder: 
+    knitr
+Config/testthat/edition: 3

@@ -1,0 +1,21 @@
+title: rmapdata
+
+navbar:
+  type: inverse
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "User Guide"
+      icon: fas fa-book
+      href: articles/vignette_user.html
+    - icon: fa-file-code-o
+      text: "Reference"
+      href: reference/index.html
+    - icon: fa-newspaper-o
+      text: "News"
+      href: news/index.html
+    - text: "Contribute"
+      href: contribute/index.html
+      
+toc:
+  depth: 3
