@@ -36,6 +36,19 @@ jobs:
           key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }} 
           restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1- 
       
+      - name: Ubuntu config
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          sudo add-apt-repository ppa:ubuntugis/ppa
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev libmagick++-dev libavfilter-dev
+      
+      - name: MacOS Config
+        if: matrix.os == 'macOS-latest'
+        run: |
+            brew install pkg-config
+            brew install gdal
+            brew install imagemagick@6
       
       - name: Install dependencies
         run: |

@@ -12,7 +12,6 @@ jobs:
     
     env:
       R_REMOTES_NO_ERRORS_FROM_WARNINGS: true
-      GITHUB_PAT: ${{ secrets.GH_PAT_RMAP}}
           
     steps:
     
@@ -24,6 +23,11 @@ jobs:
         with:
           use-public-rspm: true
           
+      - name: Ubuntu config
+        run: |
+          sudo add-apt-repository ppa:ubuntugis/ppa
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev libudunits2-dev libgdal-dev libgeos-dev libproj-dev libmagick++-dev libavfilter-dev
       
       - name: Install dependencies
         run: |
