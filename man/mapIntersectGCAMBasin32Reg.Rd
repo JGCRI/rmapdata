@@ -18,7 +18,7 @@ Intersection of GCAM Basins and GCAM 32 Regions.
 }
 \examples{
 \dontrun{
-library(rmap)
+library(rmapdata)
 head(mapIntersectGCAMBasin32Reg)
 }
 }

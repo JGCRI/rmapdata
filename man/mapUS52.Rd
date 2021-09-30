@@ -20,7 +20,7 @@ Includes Alaska, Hawaii and Puerto Rico as well as DC.
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapUS52)
  head(mapUS52@data)
 }

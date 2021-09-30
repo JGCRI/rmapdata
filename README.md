@@ -11,7 +11,7 @@
 <!-- ------------------------>
 <!-- ------------------------>
 
-`rmapdata` hosts all the data required for the `rmap` is comprehensive mapping package to create easily customizable maps and compare across scenarios, years and data classes. The package allows creation of difference maps as well as customizable legends, color palettes and styles.
+`rmapdata` hosts all the data required for the `rmap` R package for which details can be found at: https://github.com/JGCRI/rmap.
 
 <br>
 

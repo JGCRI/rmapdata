@@ -18,7 +18,7 @@ World Map of States
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapStates)
  head(mapStates@data)
 }

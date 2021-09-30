@@ -18,8 +18,8 @@ Example data by param to plot in Maps
 }
 \examples{
 \dontrun{
- library(rmap);
- mapData <- rmap::exampleMapDataParam
+ library(rmapdata);
+ mapData <- rmapdata::exampleMapDataParam
 }
 }
 \keyword{datasets}

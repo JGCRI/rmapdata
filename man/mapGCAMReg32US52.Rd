@@ -18,7 +18,7 @@ Merge of GCAM 32 and US52
 }
 \examples{
 \dontrun{
-library(rmap)
+library(rmapdata)
 head(mapGCAMReg32US52)
 }
 }

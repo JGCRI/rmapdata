@@ -18,7 +18,7 @@ World Map of Countries
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapCountries)
  head(mapCountries@data)
 }

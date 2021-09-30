@@ -18,7 +18,7 @@ Intersection of GCAM Basins and US 52 Regions.
 }
 \examples{
 \dontrun{
-library(rmap)
+library(rmapdata)
 head(mapIntersectGCAMBasinUS52)
 }
 }

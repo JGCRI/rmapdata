@@ -18,7 +18,7 @@ World Map of Countries
 }
 \examples{
 \dontrun{
- library(sp); library(rmap); library(ggplot2)
+ library(sp); library(rmapdata); library(ggplot2)
  ggplot() +
  geom_polygon(data = mapCountriesdf, aes(x = long, y = lat, group = group),
              colour = "black", fill = NA)

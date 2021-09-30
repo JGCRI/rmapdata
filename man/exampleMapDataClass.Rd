@@ -18,8 +18,8 @@ Example data by class to plot in Maps
 }
 \examples{
 \dontrun{
- library(rmap);
- mapData <- rmap::exampleMapDataClass
+ library(rmapdata);
+ mapData <- rmapdata::exampleMapDataClass
 }
 }
 \keyword{datasets}

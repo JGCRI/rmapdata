@@ -20,7 +20,7 @@ HydroSHEDS level 1
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapHydroShed1)
  head(mapHydroShed1@data)
 }

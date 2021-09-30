@@ -18,7 +18,7 @@ Intersection of GCAM Basins and countries.
 }
 \examples{
 \dontrun{
-library(rmap)
+library(rmapdata)
 head(mapIntersectGCAMBasinCountry)
 }
 }

@@ -18,7 +18,7 @@ GCAM 32 Regions
 }
 \examples{
 \dontrun{
- library(sp); library(rmap); library(ggplot2)
+ library(sp); library(rmapdata); library(ggplot2)
  ggplot() +
  geom_polygon(data = mapGCAMReg32df, aes(x = long, y = lat, group = group),
              colour = "black", fill = NA)

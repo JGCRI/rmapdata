@@ -18,7 +18,7 @@ GCAM 32 Regions
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapGCAMReg32)
  head(mapGCAMReg32@data)
 }

@@ -18,7 +18,7 @@ Cropped of GCAM Basins and US52
 }
 \examples{
 \dontrun{
-library(rmap)
+library(rmapdata)
 head(mapGCAMBasinsUS52)
 }
 }

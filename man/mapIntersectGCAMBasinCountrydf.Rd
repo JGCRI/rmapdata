@@ -18,7 +18,7 @@ Intersection of GCAM Basins and countries.
 }
 \examples{
 \dontrun{
- library(sp); library(rmap); library(ggplot2)
+ library(sp); library(rmapdata); library(ggplot2)
  ggplot() +
  geom_polygon(data = mapIntersectGCAMBasinCountrydf, aes(x = long, y = lat, group = group),
              colour = "black", fill = NA)

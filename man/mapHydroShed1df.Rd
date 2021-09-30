@@ -20,7 +20,7 @@ HydroSHEDS level 1
 }
 \examples{
 \dontrun{
- library(sp); library(rmap); library(ggplot2)
+ library(sp); library(rmapdata); library(ggplot2)
  ggplot() +
  geom_polygon(data = mapHydroShed1df, aes(x = long, y = lat, group = group),
              colour = "black", fill = NA)

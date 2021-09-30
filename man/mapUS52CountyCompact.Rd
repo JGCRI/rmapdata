@@ -20,7 +20,7 @@ Includes Alaska, Hawaii and Puerto Rico as well as DC (Repositioned)
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapUS52CountyCompact)
  head(mapUS52CountyCompact@data)
 }

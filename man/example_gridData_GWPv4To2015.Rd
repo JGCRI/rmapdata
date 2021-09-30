@@ -18,8 +18,8 @@ Example grid data
 }
 \examples{
 \dontrun{
- library(rmap);
- gridData <- rmap::example_gridData_GWPv4To2015
+ library(rmapdata);
+ gridData <- rmapdata::example_gridData_GWPv4To2015
 }
 }
 \keyword{datasets}

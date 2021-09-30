@@ -18,7 +18,7 @@ GCAM Basins
 }
 \examples{
 \dontrun{
- library(sp); library(rmap)
+ library(sp); library(rmapdata)
  sp::plot(mapGCAMBasins)
  head(mapGCAMBasins@data)
 }

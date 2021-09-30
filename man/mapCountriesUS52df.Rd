@@ -18,7 +18,7 @@ Merge of Countries and US52
 }
 \examples{
 \dontrun{
- library(sp); library(rmap); library(ggplot2)
+ library(sp); library(rmapdata); library(ggplot2)
  ggplot() +
  geom_polygon(data = mapCountriesUS52df, aes(x = long, y = lat, group = group),
              colour = "black", fill = NA)

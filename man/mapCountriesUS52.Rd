@@ -18,7 +18,7 @@ Merge of Countries and US52
 }
 \examples{
 \dontrun{
-library(rmap)
+library(rmapdata)
 head(mapCountriesUS52)
 }
 }

@@ -18,7 +18,7 @@ List of subRegions in Pre-loaded maps
 }
 \examples{
 \dontrun{
- library(rmap);
+ library(rmapdata);
  names(mapsSubRegions)
 }
 }
